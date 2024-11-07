@@ -1,0 +1,6 @@
+~*.lck
+*/#auto_saved_files#
+
+## plugins
+*/place_footprints*
+*/*.kicad_pcb.hierpcb.*
