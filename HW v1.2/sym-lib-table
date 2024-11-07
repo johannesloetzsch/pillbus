@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name STM32G070)(type Legacy)(uri ${KIPRJMOD}/STM32G070.lib)(options "")(descr ""))
-)
