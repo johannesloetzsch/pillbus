@@ -21,10 +21,11 @@ Different from `OtterPill`, a newer MCU is used:
 * 20KB RAM
 * max 72MHz, Internal Oscillator
 * 37 GPIO Ports
+* 2 SPI, 2 I²C, 3 USART, 1 USB 2.0 full-speed, 1 CAN
 * 12bit ADC
-* USB, SPI, I²C
 * DMA
 
+[MCU pinout](./pinout.md)
 
 ### Rust
 

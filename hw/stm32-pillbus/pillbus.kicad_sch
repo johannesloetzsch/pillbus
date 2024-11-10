@@ -680,7 +680,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 24.13) (xy 33.02 24.13)
+			(xy 156.21 146.05) (xy 162.56 146.05)
 		)
 		(stroke
 			(width 0)
@@ -938,7 +938,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 26.67 27.94 0)
+		(at 156.21 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -947,7 +947,7 @@
 		(fields_autoplaced yes)
 		(uuid "2aa04d02-f491-45f6-bd4e-30c5408b67f1")
 		(property "Reference" "R1"
-			(at 29.21 26.6699 0)
+			(at 158.75 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,7 +956,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 29.21 29.2099 0)
+			(at 158.75 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -965,7 +965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.892 27.94 90)
+			(at 154.432 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,7 +974,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 27.94 0)
+			(at 156.21 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -983,7 +983,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 26.67 27.94 0)
+			(at 156.21 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1074,7 +1074,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 31.75 0)
+		(at 156.21 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1083,7 +1083,7 @@
 		(fields_autoplaced yes)
 		(uuid "49727dae-f3c8-4009-af74-007dbecfa69f")
 		(property "Reference" "#PWR09"
-			(at 26.67 38.1 0)
+			(at 156.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,7 +1092,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 36.83 0)
+			(at 156.21 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1100,7 +1100,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 31.75 0)
+			(at 156.21 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,7 +1109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 31.75 0)
+			(at 156.21 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,7 +1118,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 31.75 0)
+			(at 156.21 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1399,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 24.13 0)
+		(at 162.56 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1408,7 +1408,7 @@
 		(fields_autoplaced yes)
 		(uuid "887e2b05-56bf-4565-9e98-b460f90343c6")
 		(property "Reference" "#PWR08"
-			(at 33.02 30.48 0)
+			(at 162.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1417,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 29.21 0)
+			(at 162.56 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +1425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 24.13 0)
+			(at 162.56 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +1434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 24.13 0)
+			(at 162.56 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,7 +1443,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 24.13 0)
+			(at 162.56 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,6 +1858,44 @@
 		)
 	)
 	(sheet
+		(at 213.36 24.13)
+		(size 43.18 59.69)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "278da9b5-71e3-4ccc-92bd-d48fd090b832")
+		(property "Sheetname" "stm32pill3"
+			(at 213.36 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32pill.kicad_sch"
+			(at 213.36 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pillbus"
+				(path "/eae9d418-f407-4ce6-ae70-138b36f2a986"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 196.85 138.43)
 		(size 74.93 8.89)
 		(fields_autoplaced yes)
@@ -1921,6 +1959,44 @@
 			(project "pillbus"
 				(path "/eae9d418-f407-4ce6-ae70-138b36f2a986"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 22.86)
+		(size 43.18 59.69)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "639c1cb6-f958-4d78-addf-ea5bc95e6480")
+		(property "Sheetname" "stm32pill1"
+			(at 83.82 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32pill.kicad_sch"
+			(at 83.82 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pillbus"
+				(path "/eae9d418-f407-4ce6-ae70-138b36f2a986"
+					(page "7")
 				)
 			)
 		)
@@ -1994,6 +2070,82 @@
 		)
 	)
 	(sheet
+		(at 83.82 109.22)
+		(size 43.18 59.69)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b564c09-eb67-41c7-aad4-5e39d43b1aa8")
+		(property "Sheetname" "stm32pill4"
+			(at 83.82 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32pill.kicad_sch"
+			(at 83.82 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pillbus"
+				(path "/eae9d418-f407-4ce6-ae70-138b36f2a986"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 22.86)
+		(size 43.18 59.69)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f61fb5b-ffa7-41ae-b6e2-df5dff6acec7")
+		(property "Sheetname" "stm32pill2"
+			(at 147.32 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32pill.kicad_sch"
+			(at 147.32 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pillbus"
+				(path "/eae9d418-f407-4ce6-ae70-138b36f2a986"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 196.85 121.92)
 		(size 74.93 8.89)
 		(fields_autoplaced yes)
@@ -2057,6 +2209,44 @@
 			(project "pillbus"
 				(path "/eae9d418-f407-4ce6-ae70-138b36f2a986"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 21.59)
+		(size 43.18 59.69)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e1eb00e8-45c8-4d05-9770-ff446cfd0735")
+		(property "Sheetname" "stm32pill"
+			(at 21.59 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32pill.kicad_sch"
+			(at 21.59 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pillbus"
+				(path "/eae9d418-f407-4ce6-ae70-138b36f2a986"
+					(page "6")
 				)
 			)
 		)
