@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "jlcpcb")(type "KiCad")(uri "${KIPRJMOD}/../kicad-libs/jlcpcb.pretty")(options "")(descr ""))
   (lib (name "base")(type "KiCad")(uri "${KIPRJMOD}/../kicad-libs/base.pretty")(options "")(descr ""))
+  (lib (name "ribbon")(type "KiCad")(uri "${KIPRJMOD}/../kicad-libs/ribbon.pretty")(options "")(descr ""))
 )

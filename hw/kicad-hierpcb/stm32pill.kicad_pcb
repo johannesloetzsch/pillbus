@@ -126,7 +126,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "16701138-4de6-4fa6-8c18-f85e3942cc2c")
-		(at 38.1 71.12 180)
+		(at 43.18 71.12 180)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "PC"
@@ -504,7 +504,7 @@
 		(at 43.18 63.5)
 		(descr "plated through hole")
 		(property "Reference" "NRST"
-			(at -0.635 1.905 0)
+			(at -2.54 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d2aa5656-598a-4b31-ab63-af527d49fcc5")
@@ -598,7 +598,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6547e62f-bfbb-4f3f-ae94-646cc3ba71b6")
-		(at 30.48 71.12 180)
+		(at 27.94 71.12 180)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "SWD"
@@ -994,7 +994,7 @@
 		)
 		(fp_arc
 			(start -3.379999 4.06)
-			(mid -3.394989 4.460188)
+			(mid -3.394993 4.460187)
 			(end -3.390027 4.05975)
 			(stroke
 				(width 0.4)
@@ -2016,7 +2016,7 @@
 			)
 		)
 		(property "Value" "I2C_2"
-			(at 0 4.87 360)
+			(at 0 4.87 0)
 			(layer "F.Fab")
 			(uuid "e85bf671-79d9-496b-a1c1-b998bfc556d5")
 			(effects
@@ -2268,7 +2268,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "db192b15-5f60-499e-9de5-60cc7828a025")
-		(at 40.64 71.12 180)
+		(at 38.1 71.12 180)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "PD"

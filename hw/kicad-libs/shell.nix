@@ -8,7 +8,7 @@ in pkgs.mkShell {
   shellHook = ''
     unset SOURCE_DATE_EPOCH
 
-    rm .venv
+    #rm -r .venv
     python -m venv .venv
     source .venv/bin/activate
 
