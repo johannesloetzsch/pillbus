@@ -2,15 +2,6 @@
 
 Simple and configurable bus controllers based on STM32.
 
-
-## Arduino interface
-
-The Footprint of each MCU is based on the [OtterPill](https://github.com/Jana-Marie/OtterPill) dev board.
-It has Arduino nano alike pinout:
-
-![pinout](./pinout.svg?raw=true)
-
-
 ## [STM32F103C8T6](https://www.lcsc.com/datasheet/lcsc_datasheet_2302211130_STMicroelectronics-STM32F103C8T6_C8734.pdf)
 
 Different from `OtterPill`, a newer MCU is used:

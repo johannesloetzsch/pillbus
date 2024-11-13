@@ -1016,7 +1016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a45d9d3-5e28-43e3-bd5d-def62868f34a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 179.07 102.87 0)
 			(effects
 				(font
@@ -1066,7 +1066,7 @@
 		(instances
 			(project ""
 				(path "/eae9d418-f407-4ce6-ae70-138b36f2a986"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1082,7 +1082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49727dae-f3c8-4009-af74-007dbecfa69f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR02"
 			(at 156.21 160.02 0)
 			(effects
 				(font
@@ -1132,7 +1132,7 @@
 		(instances
 			(project "pillbus"
 				(path "/eae9d418-f407-4ce6-ae70-138b36f2a986"
-					(reference "#PWR09")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1407,7 +1407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "887e2b05-56bf-4565-9e98-b460f90343c6")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR03"
 			(at 162.56 152.4 0)
 			(effects
 				(font
@@ -1457,7 +1457,7 @@
 		(instances
 			(project ""
 				(path "/eae9d418-f407-4ce6-ae70-138b36f2a986"
-					(reference "#PWR08")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1538,7 +1538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d219fa1d-cf9a-4e64-b635-c994a7885501")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 166.37 194.31 0)
 			(effects
 				(font
@@ -1588,7 +1588,7 @@
 		(instances
 			(project ""
 				(path "/eae9d418-f407-4ce6-ae70-138b36f2a986"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)

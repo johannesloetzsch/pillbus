@@ -1,58 +1,60 @@
 ## [STM32F103xx pin definitions](https://www.lcsc.com/datasheet/lcsc_datasheet_2302211130_STMicroelectronics-STM32F103C8T6_C8734.pdf)
 
-| Usage      | Board | Chip | Type      | Level | Function   | Alternate                                    | Remap                                         |
-| ---------- | ----- | ---- | --------- | ----- | ---------- | -------------------------------------------- | --------------------------------------------- |
-|            | VBAT  | 1    | S         |       | VBAT       |                                              |                                               |
-| PC13       | PC13  | 2    | I/O       |       | PC13(6)    | TAMPER-RTC                                   |                                               |
-| PC14       | PC14  | 3    | I/O       |       | PC14(6)    | OSC32_IN                                     |                                               |
-| PC15       | PC15  | 4    | I/O       |       | PC15(6)    | OSC32_OUT                                    |                                               |
-| PD0_I      | OSC_I | 5    | I         |       | OSC_IN     |                                              | PD0(7)                                        |
-| PD1_O      | OSC_O | 6    | O         |       | OSC_OUT    |                                              | PD1(7)                                        |
-| NRST       | NRST  | 7    | I/O       |       | NRST       |                                              |                                               |
-|            |       | 8    | S         |       | VSSA       |                                              |                                               |
-|            |       | 9    | S         |       | VDDA       |                                              |                                               |
-| ADC0       | ADC0  | 10   | I/O       |       | PA0        | WKUP/USART2_CTS(9)/ADC12_IN0/TIM2_CH1_ETR(9) |                                               |
-| ADC1       | AR11  | 11   | I/O       |       | PA1        | USART2_RTS(9)/ADC12_IN1/TIM2_CH2(9)          |                                               |
-| ADC2       | AR10  | 12   | I/O       |       | PA2        | USART2_TX(9)/ADC12_IN2/TIM2_CH3(9)           |                                               |
-| ADC3       | AR9   | 13   | I/O       |       | PA3        | USART2_RX(9)/ADC12_IN3/TIM2_CH4(9)           |                                               |
-| ADC4       | AR8   | 14   | I/O       |       | PA4        | SPI1_NSS(9)/USART2_CK(9)/ADC12_IN4           |                                               |
-| ADC5       | AR7   | 15   | I/O       |       | PA5        | SPI1_SCK(9)/ADC12_IN5                        |                                               |
-| ADC6       | AR6   | 16   | I/O       |       | PA6        | SPI1_MISO(9)/ADC12_IN6/TIM3_CH1(9)           | TIM1_BKIN                                     |
-| ADC7       | AR5   | 17   | I/O       |       | PA7        | SPI1_MOSI(9)/ADC12_IN7/TIM3_CH2(9)           | TIM1_CH1N                                     |
-| ADC8       | AR3   | 18   | I/O       |       | PB0        | ADC12_IN8/TIM3_CH3(9)                        | TIM1_CH2N                                     |
-| ADC9       | AL4   | 19   | I/O       |       | PB1        | ADC12_IN9/TIM3_CH4(9)                        | TIM1_CH3N                                     |
-| B1         | AL7   | 20   | I/O       | FT    | PB2/BOOT1  |                                              |                                               |
-| I2C2_SCL   | SCL   | 21   | I/O       | FT    | PB10       | I2C2_SCL/USART3_TX(9)                        | TIM2_CH3                                      |
-| I2C2_SDA   | SDA   | 22   | I/O       | FT    | PB11       | I2C2_SDA/USART3_RX(9)                        | TIM2_CH4                                      |
-|            |       | 23   | S         |       | VSS_1      |                                              |                                               |
-|            |       | 24   | S         |       | VDD_1      |                                              |                                               |
-| SPI2_NSS   | AR4   | 25   | I/O       | FT    | PB12       |                                              | SPI2_NSS/I2C2_SMBAl/USART3_CK(9)/TIM1_BKIN(9) |
-| SPI2_SCK   | AL1   | 26   | I/O       | FT    | PB13       |                                              | SPI2_SCK/USART3_CTS(9)/TIM1_CH1N(9)           |
-| SPI2_MISO  | AR1   | 27   | I/O       | FT    | PB14       |                                              | SPI2_MISO/USART3_RTS(9) TIM1_CH2N(9)          |
-| SPI2_MOSI  | AR2   | 28   | I/O       | FT    | PB15       |                                              | SPI2_MOSI/TIM1_CH3N(9)                        |
-| PA8        | AL3   | 29   | I/O       | FT    | PA8        | USART1_CK/TIM1_CH1(9)/MCO                    |                                               |
-| B_USART_TX | AR15  | 30   | I/O       | FT    | PA9        | USART1_TX(9)/TIM1_CH2(9)                     |                                               |
-| B_USART_RX | AR14  | 31   | I/O       | FT    | PA10       | USART1_RX(9)/TIM1_CH3(9)                     |                                               |
-| USBDM      | USBD- | 32   | I/O       | FT    | PA11       | USART1_CTS/CANRX(9)/USBDM/TIM1_CH4(9)        |                                               |
-| USBDP      | USBD+ | 33   | I/O       | FT    | PA12       | USART1_RTS/CANTX(9)/USBDP/TIM1_ETR(9)        |                                               |
-| SWDIO      | SDWIO | 34   | I/O       | FT    | JTMS/SWDIO |                                              | PA13                                          |
-|            |       | 35   | S         |       | VSS_2      |                                              |                                               |
-|            |       | 36   | S         |       | VDD_2      |                                              |                                               |
-| SWCLK      | SWCLK | 37   | I/O       | FT    | JTCK/SWCLK |                                              | PA14                                          |
-| SPI1_NSS   | AL6   | 38   | I/O       | FT    | JTDI       |                                              | TIM2_CH1_ETR/PA15/SPI1_NSS                    |
-| SPI1_SCK   | AL10  | 39   | I/O       | FT    | JTDO       |                                              | TIM2_CH2/PB3 TRACESWO/SPI1_SCK                |
-| SPI1_MISO  | AL11  | 40   | I/O       | FT    | JNTRST     |                                              | TIM3_CH1/PB4/SPI1_MISO                        |
-| SPI1_MOSI  | AL13  | 41   | I/O       |       | PB5        | I2C1_SMBAl                                   | TIM3_CH2/SPI1_MOSI                            |
-| I2C1_SCL   | AL9   | 42   | I/O       | FT    | PB6        | I2C1_SCL(9)/TIM4_CH1(9)                      | USART1_TX                                     |
-| I2C1_SDA   | AL8   | 43   | I/O       | FT    | PB7        | I2C1_SDA(9)/TIM4_CH2(9)                      | USART1_RX                                     |
-| B0         | B0    | 44   | I         |       | BOOT0      |                                              |                                               |
-| CANRX      | AL5   | 45   | I/O       | FT    | PB8        | TIM4_CH3(9)                                  | I2C1_SCL/CANRX                                |
-| CANTX      | AR13  | 46   | I/O       | FT    | PB9        | TIM4_CH4(9)                                  | I2C1_SDA/CANTX                                |
-|            |       | 47   | S         |       | VSS_3      |                                              |                                               |
-|            |       | 48   | S         |       | VDD_3      |                                              |                                               |
+| Protocol            | Pin   | Board | Dev   | Port | IDE | Chip | Type | Level | Function   | Alternate                          Remap              |
+| ------------------- | ----- | ----- | ----- | ---- | --- | ---- | ---- | ----- | ---------- | ----------------------------------------------------- |
+|                     |       | VBAT  | VBAT  |      |     | 1    | S    |       | VBAT       |                                                       |
+|                     | pc13  |       |       | A7   | 40  | 2    | I/O  |       | PC13(6)    | TAMPER-RTC                                            |
+|                     | pc14  |       |       | A6   | 38  | 3    | I/O  |       | PC14(6)    | OSC32_IN                                              |
+|                     | pc15  |       |       | A5   | 36  | 4    | I/O  |       | PC15(6)    | OSC32_OUT                                             |
+|                     |       |       |       |      | 34  |      |      |       |            | /* blue connector */                                  |
+|                     | (pd0) | OSC_I |       |      | (-) | 5    | I    |       | OSC_IN     | PD0(7)                                                |
+|                     | (pd1) | OSC_O |       |      | (-) | 6    | O    |       | OSC_OUT    | PD1(7)                                                |
+|                     |       | NRST  | NRST  |      | (*) | 7    | I/O  |       | NRST       |                                                       |
+|                     |       |       |       |      |     | 8    | S    |       | VSSA       |                                                       |
+|                     |       |       |       |      |     | 9    | S    |       | VDDA       |                                                       |
+| USART2_CTS          | pa0   | ad0   |       | A4   | 32  | 10   | I/O  |       | PA0        | WKUP/USART2_CTS(9)/ADC12_IN0/TIM2_CH1_ETR(9)          |
+| USART2_RTS          | pa1   | ad1   |       | A3   | 30  | 11   | I/O  |       | PA1        | USART2_RTS(9)/ADC12_IN1/TIM2_CH2(9)                   |
+|                     |       |       |       |      | 28  |      |      |       |            | /* cable select */                                    |
+| USART2_TX           | pa2   | ad2   |       | A2   | 26  | 12   | I/O  |       | PA2        | USART2_TX(9)/ADC12_IN2/TIM2_CH3(9)                    |
+| USART2_RX           | pa3   | ad3   |       | A1   | 24  | 13   | I/O  |       | PA3        | USART2_RX(9)/ADC12_IN3/TIM2_CH4(9)                    |
+| USART2_CK, SPI1_NSS | pa4   | ad4   |       | A0   | 22  | 14   | I/O  |       | PA4        | SPI1_NSS(9)/USART2_CK(9)/ADC12_IN4                    |
+|                     |       |       |       |      | 20  |      |      |       |            | /* mechanical key */                                  |
+| SPI1_SCK            | pa5   | ad5   |       | B7   | 18  | 15   | I/O  |       | PA5        | SPI1_SCK(9)/ADC12_IN5                                 |
+| SPI1_MISO           | pa6   | ad6   |       | B6   | 16  | 16   | I/O  |       | PA6        | SPI1_MISO(9)/ADC12_IN6/TIM3_CH1(9) TIM1_BKIN          |
+| SPI1_MOSI           | pa7   | ad7   |       | B5   | 14  | 17   | I/O  |       | PA7        | SPI1_MOSI(9)/ADC12_IN7/TIM3_CH2(9) TIM1_CH1N          |
+|                     | pb0   | ad8   |       | B4   | 12  | 18   | I/O  |       | PB0        | ADC12_IN8/TIM3_CH3(9)              TIM1_CH2N          |
+|                     | pb1   | ad9   |       | B3   | 10  | 19   | I/O  |       | PB1        | ADC12_IN9/TIM3_CH4(9)              TIM1_CH3N          |
+|                     | PB2   | Boot1 | Boot1 | B2   | 8   | 20   | I/O  | FT    | PB2/BOOT1  |                                                       |
+| I2C2_SCL, USART3_TX | PB10  |       |       | B1   | 6   | 21   | I/O  | FT    | PB10       | I2C2_SCL/USART3_TX(9)              TIM2_CH3           |
+| I2C2_SDA, USART3_RX | PB11  |       |       | B0   | 4   | 22   | I/O  | FT    | PB11       | I2C2_SDA/USART3_RX(9)              TIM2_CH4           |
+|                     |       |       |       |      | 1   | 23   | S    |       | VSS_1      |                                                       |
+|                     |       |       |       |      | 2   | 24   | S    |       | VDD_1      |                                                       |
+| SPI2_NSS            | PB12  |       |       | C0   | 5   | 25   | I/O  | FT    | PB12       | SPI2_NSS/I2C2_SMBAl/USART3_CK(9)/TIM1_BKIN(9)         |
+| SPI2_SCK            | PB13  |       |       | C1   | 7   | 26   | I/O  | FT    | PB13       | SPI2_SCK/USART3_CTS(9)/TIM1_CH1N(9)                   |
+| SPI2_MISO           | PB14  |       |       | C2   | 9   | 27   | I/O  | FT    | PB14       | SPI2_MISO/USART3_RTS(9) TIM1_CH2N(9)                  |
+| SPI2_MOSI           | PB15  |       |       | C3   | 11  | 28   | I/O  | FT    | PB15       | SPI2_MOSI/TIM1_CH3N(9)                                |
+|                     | PA8   |       |       | C4   | 13  | 29   | I/O  | FT    | PA8        | USART1_CK/TIM1_CH1(9)/MCO                             |
+| USART1_TX           | PA9   | TX    | TX    | C5   | 15  | 30   | I/O  | FT    | PA9        | USART1_TX(9)/TIM1_CH2(9)                              |
+| USART1_RX           | PA10  | RX    | RX_   | C6   | 17  | 31   | I/O  | FT    | PA10       | USART1_RX(9)/TIM1_CH3(9)                              |
+| USBd-, CANRX        | PA11  | USBd- | USBd- | C7   | 19  | 32   | I/O  | FT    | PA11       | USART1_CTS/CANRX(9)/USBDM/TIM1_CH4(9)                 |
+| USBd+, CANRX        | PA12  | USBd+ | USBd+ | D0   | 21  | 33   | I/O  | FT    | PA12       | USART1_RTS/CANTX(9)/USBDP/TIM1_ETR(9)                 |
+|                     | PA13  | SDWIO | SDWIO | D1   | 23  | 34   | I/O  | FT    | JTMS/SWDIO | PA13                                                  |
+|                     |       |       |       |      |     | 35   | S    |       | VSS_2      |                                                       |
+|                     |       |       |       |      |     | 36   | S    |       | VDD_2      |                                                       |
+|                     | PA14  | SWCLK | SWCLK | D2   | 25  | 37   | I/O  | FT    | JTCK/SWCLK | PA14                                                  |
+| SPI1_NSS            | PA15  |       |       | D3   | 27  | 38   | I/O  | FT    | JTDI       | TIM2_CH1_ETR/PA15/SPI1_NSS                            |
+| SPI1_SCK            | PB3   |       |       | D4   | 29  | 39   | I/O  | FT    | JTDO       | TIM2_CH2/PB3 TRACESWO/SPI1_SCK                        |
+| SPI1_MISO           | PB4   |       |       | D5   | 31  | 40   | I/O  | FT    | JNTRST     | TIM3_CH1/PB4/SPI1_MISO                                |
+| SPI1_MOSI           | pb5   |       |       | D6   | 33  | 41   | I/O  |       | PB5        | I2C1_SMBAl                         TIM3_CH2/SPI1_MOSI |
+|                     | PB6   |       |       | D7   | 35  | 42   | I/O  | FT    | PB6        | I2C1_SCL(9)/TIM4_CH1(9)            USART1_TX          |
+| USB_VbusSense       | PB7   | VbusS |       |      | 3   | 43   | I/O  | FT    | PB7        | I2C1_SDA(9)/TIM4_CH2(9)            USART1_RX          |
+|                     |       | Boot0 | Boot0 |      | (*) | 44   | I    |       | BOOT0      |                                                       |
+| I2C1_SCL, CANRX     | PB8   | SCL   | SCL   | SCL  | 37  | 45   | I/O  | FT    | PB8        | TIM4_CH3(9)                        I2C1_SCL/CANRX     |
+| I2C1_SDA, CANTX     | PB9   | SDA   | SDA   | SDA  | 39  | 46   | I/O  | FT    | PB9        | TIM4_CH4(9)                        I2C1_SDA/CANTX     |
+|                     |       |       |       |      |     | 47   | S    |       | VSS_3      |                                                       |
+|                     |       |       |       |      |     | 48   | S    |       | VDD_3      |                                                       |
 
 Legend:
-> Usage (our intended function): B = boot pins, SW = servial wire debug, USART, USB, I2C, SPI, CAN, ADC, PA, PC, PD
-> Board: AL = arduino left, AR = arduino right, SW = servial wire debug, B0, USB, SCL/SDA, ADC, OSC, PC, NRST
+> Pin (digital): UPPER = 5 V tolerant
 > Type: I = input, O = output, S = supply
 > Level: FT = 5 V tolerant

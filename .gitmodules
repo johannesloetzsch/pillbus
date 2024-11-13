@@ -1,3 +1,0 @@
-[submodule "KiCAD-libs"]
-	path = hw/stm32-pillbus/otterpill/KiCAD-libs
-	url = git@github.com:Jan--Henrik/KiCAD-libs.git
