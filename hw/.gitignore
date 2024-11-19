@@ -4,3 +4,6 @@
 ## plugins
 */place_footprints*
 */*.kicad_pcb.hierpcb.*
+
+*/production/
+*/fabrication-toolkit-options.json
