@@ -214,7 +214,7 @@
 		(remove_unused_layers no)
 		(uuid "292adfad-d8fe-422a-85ef-b8ea577b06f6")
 	)
-	(pad "SCL" thru_hole circle
+	(pad "SCA" thru_hole circle
 		(at 0 20.32 270)
 		(size 1.7 1.7)
 		(drill 1)
@@ -222,7 +222,7 @@
 		(remove_unused_layers no)
 		(uuid "66b0881b-bff5-429d-bd12-9bcc56ff508c")
 	)
-	(pad "SDA" thru_hole circle
+	(pad "SDL" thru_hole circle
 		(at 0 22.86 270)
 		(size 1.7 1.7)
 		(drill 1)

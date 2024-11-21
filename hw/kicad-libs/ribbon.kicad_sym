@@ -1727,9 +1727,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -27.94 180)
+				(at 0 -25.4 180)
 				(length 3.81)
-				(name "IDE37_STM46"
+				(name "IDE39_STM45"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1745,9 +1745,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -25.4 180)
+				(at 0 -27.94 180)
 				(length 3.81)
-				(name "IDE39_STM45"
+				(name "IDE37_STM46"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5296,9 +5296,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -20.32 180)
+				(at 0 -22.86 180)
 				(length 3.81)
-				(name "IDE37_STM46"
+				(name "IDE39_STM45"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5314,9 +5314,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -22.86 180)
+				(at 0 -20.32 180)
 				(length 3.81)
-				(name "IDE39_STM45"
+				(name "IDE37_STM46"
 					(effects
 						(font
 							(size 1.27 1.27)
