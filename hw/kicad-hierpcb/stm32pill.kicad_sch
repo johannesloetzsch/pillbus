@@ -6917,6 +6917,12 @@
 		(uuid "2b4340cd-2f5e-4120-96ef-1bfe07ceeb38")
 	)
 	(junction
+		(at 105.41 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bb8baf4-e522-4069-b510-09223236fa66")
+	)
+	(junction
 		(at 271.78 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7343,6 +7349,16 @@
 			(type default)
 		)
 		(uuid "090d2697-05b3-4d1f-97c7-bb1cd5e3f350")
+	)
+	(wire
+		(pts
+			(xy 105.41 24.13) (xy 107.95 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1b4a37-9a4b-4866-9933-b0aaf3365599")
 	)
 	(wire
 		(pts
@@ -8396,6 +8412,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 15.24) (xy 107.95 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b647e4c-c7c2-492d-807a-060f359869d0")
+	)
+	(wire
+		(pts
 			(xy 214.63 138.43) (xy 191.77 138.43)
 		)
 		(stroke
@@ -8863,6 +8889,16 @@
 			(type default)
 		)
 		(uuid "982abbfb-cb44-40c6-bc99-c384d5b58e65")
+	)
+	(wire
+		(pts
+			(xy 107.95 15.24) (xy 107.95 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98bafd2e-c6f0-4d9e-b568-52253360d9ad")
 	)
 	(wire
 		(pts
@@ -10746,6 +10782,72 @@
 				)
 				(path "/eae9d418-f407-4ce6-ae70-138b36f2a986/e1eb00e8-45c8-4d05-9770-ff446cfd0735"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 133.35 15.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1eb2f9ef-0847-4173-80a2-a4b2de8b9d96")
+		(property "Reference" "VBus_1"
+			(at 139.7 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.715 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "base:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 133.35 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 133.35 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "454dbeb8-bc51-4abc-bf83-6528d8993576")
+		)
+		(instances
+			(project "stm32pill"
+				(path "/02648bdf-775f-4db3-b3af-d1ac51708c5a"
+					(reference "VBus_1")
 					(unit 1)
 				)
 			)
