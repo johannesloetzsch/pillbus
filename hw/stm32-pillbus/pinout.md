@@ -38,7 +38,7 @@
 | USART1_RX           | PA10  | RX    | RX_   | A1   | 17  | 31   | I/O  | FT    | PA10       | USART1_RX(9)/TIM1_CH3(9)                              |
 | USBd-, CANRX        | PA11  | USBd- | USBd- | A0   | 19  | 32   | I/O  | FT    | PA11       | USART1_CTS/CANRX(9)/USBDM/TIM1_CH4(9)                 |
 | USBd+, CANRX        | PA12  | USBd+ | USBd+ | C0   | 21  | 33   | I/O  | FT    | PA12       | USART1_RTS/CANTX(9)/USBDP/TIM1_ETR(9)                 |
-|                     | PA13  | SDWIO | SDWIO | C1   | 23  | 34   | I/O  | FT    | JTMS/SWDIO | PA13                                                  |
+|                     | PA13  | SWDIO | SWDIO | C1   | 23  | 34   | I/O  | FT    | JTMS/SWDIO | PA13                                                  |
 |                     |       |       |       |      |     | 35   | S    |       | VSS_2      |                                                       |
 |                     |       |       |       |      |     | 36   | S    |       | VDD_2      |                                                       |
 |                     | PA14  | SWCLK | SWCLK | C2   | 25  | 37   | I/O  | FT    | JTCK/SWCLK | PA14                                                  |
